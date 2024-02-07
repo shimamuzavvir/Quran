@@ -1,0 +1,35 @@
+.arabic-text{
+  font-family: 'Your Arabic Font', Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  color: #0625a0;
+}
+.ayah{
+  border-bottom: 1px solid #ccc ;
+  padding: 10px;
+}
+body{
+  background-image: url(download.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.row{
+  background-image:radial-gradient(rgb(125, 71, 125),rgb(52, 7, 52),purple);
+  
+  background-size: cover;
+  padding: 20px;
+  margin: 20px;
+  row-gap: 40px;
+  border: 10px;
+}  
+ #card{
+  background-color:whitesmoke;
+
+
+  color: #3ed831;
+  font-size: larger;
+  }
+ #title{
+  margin: 10px;
+  border: 10px;
+  padding: 20px;
+ } 
