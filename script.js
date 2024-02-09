@@ -9,6 +9,11 @@ head.setAttribute("id", "title");
 head.setAttribute("class", "text-center");
 head.innerText = "AL-QURAN";
 
+
+
+
+
+
 let alldata;
 
 // fetching QURAN api and surah name in card format
@@ -42,7 +47,7 @@ async function quranSurah(){
  var surah = document.getElementById("surahDetailsModalBody");
  surah.innerHTML = ""
  for (let j=0; j<alldata.data.surahs[surahNo - 1].ayahs.length; j++){
-  console.log(alldata.data.surahs[surahNo - 1].ayahs[j].text);
+  //console.log(alldata.data.surahs[surahNo - 1].ayahs[j].text);
    surah.innerHTML += `<div class="ayah arabic-text"><b>${alldata.data.surahs[surahNo - 1].ayahs[j].text} </b></div>`
 
 }
